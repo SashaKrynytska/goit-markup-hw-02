@@ -28,15 +28,24 @@ li {
 
 .logo {
   color: var(--accent-color);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
-.logo-header {
+.logo > span {
   color: var(--title-text-color);
 }
 
 .logo .logo-footer {
   color: var(--primary-white-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 /*Навигация*/
@@ -62,6 +71,10 @@ li {
 
 .nav-contacts {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .nav-contacts:hover,
 .nav-contacts:focus {
@@ -80,6 +93,7 @@ li {
   letter-spacing: 0.06em;
 }
 .hero .btn {
+  font-family: "Roboto", sans-serif;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-weight: 700;
@@ -162,10 +176,11 @@ li {
 
 /*Портфолио*/
 .portfolio {
-  background-color: ;
+  background-color: var(--background-color);
 }
 /*Кнопки Фильтр в Портфолио*/
 .btn {
+  font-family: "Roboto", sans-serif;
   color: var(--title-text-color);
   background-color: #f5f4fa;
   border-radius: 4px;
